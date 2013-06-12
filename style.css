@@ -418,7 +418,8 @@ tr td a.active {
 }
 
 nav table strong {
-	font-size: 22px;
+	color: #fff;
+	font-size: 19px;
 	font-weight: 400;
 }
 
