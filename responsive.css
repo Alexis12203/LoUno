@@ -1,0 +1,691 @@
+/*	-----------------------------------------------------   /*
+	RESPONSIVE.CSS => RESPONSIVE STYLESHEET
+		- TABLET LANDSCAPE || LITTLE DESKTOP/LAPTOP <1029PX
+		- TABLET PORTRAIT AND PHONE LANDSCAPE STYLE <769PX
+		- PHONE STYLE <650PX
+/*	-----------------------------------------------------   */
+
+/*------------------------------------------------------------------------------------------------------------------------------- */
+/*------------------------------------------------- TABLET LANDSCAPE STYLE ------------------------------------------------------ */
+/*------------------------------------------------------------------------------------------------------------------------------- */
+
+@media handheld and (max-width: 1029px), screen and (max-width: 1029px), screen and (max-device-width: 1029px)  {
+
+/*--------------- HEADER --------------- */
+
+.text_header {
+	width: 70%;
+}
+
+#top_content {
+	width: 90%;
+}
+
+.slidesjs-pagination {
+	margin-left: 0px;
+}
+
+/*--------------- NAV --------------- */
+
+#menu {
+	width: 90%;
+}
+
+nav tr td {
+	padding: 0 25px 0 0;
+}
+
+#nav_contact {
+	float: left;
+}
+
+/*--------------- MEET TEAM --------------- */
+
+#team {
+	width: 90%;margin: auto;
+}
+
+/*--------------- OUR PRODUCTS --------------- */
+
+#products {
+	width: 100%;
+}
+
+#buttons_products, #products h1, #products .title {
+	width: 90%; margin: auto;
+}
+
+#shadow_right, #shadow_left {
+	display: none;
+}
+
+#description_showcase {
+	width: 90%;
+	padding: 20px 0 30px 0;
+}
+
+/*--------------- OUR SERVICES --------------- */
+
+#services {
+	width: 90%;
+}
+
+#service_table_2cols {
+	padding-left: 130px;padding-right: 130px;
+}
+
+/*--------------- OUR WORK --------------- */
+
+#work {
+	width: 90%;
+}
+
+/*--------------- OUR BLOG --------------- */
+
+#news {
+	width: 90%;margin: auto;
+}
+
+#blog_content {
+	width: 75%;
+}
+
+.media img, .media iframe {
+	width: 100%;
+}
+
+.icon {
+	width: 40px;
+}
+
+.content_news {
+	width: 90%;
+}
+
+.title_news {
+	width: 70%;
+}
+
+.news_share {
+	width: 30%;
+}
+
+.comments textarea {
+	width: 95%;
+}
+
+#view_all_posts {
+	width: 90%;
+	margin: 0 0 -50px 10%;
+}
+
+#sidebar {
+	width: 20%;
+	margin-left: 5%;
+}
+
+#search_bar input {
+	width: 90%;
+}
+
+.ad_sidebar {
+	width: 100%;
+}
+
+#twitter {
+	overflow: hidden;
+}
+
+/*--------------- FOOTER --------------- */
+
+#contact_social table {
+	width: 90%;
+}
+
+#footer p {
+	width: 90%;
+
+}
+
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------- */
+/*--------------------------------------- TABLET PORTRAIT AND PHONE LANDSCAPE STYLE --------------------------------------------- */
+/*------------------------------------------------------------------------------------------------------------------------------- */
+
+@media handheld and (max-width: 769px), screen and (max-width: 769px), screen and (max-device-width: 769px)  {
+
+
+/*--------------- MAIN --------------- */
+
+#container {
+	margin: 0;
+	overflow: hidden;
+}
+
+/*--------------- HEADER --------------- */
+
+#header {
+	height: 530px !important;
+}
+
+#slides {
+	height: 530px;
+}
+.slidesjs-container {
+	min-height: 530px;
+}
+.slidesjs-control {
+	height: 530px;
+}
+
+.slidesjs-previous {
+	display: none;
+}
+.slidesjs-next {
+	display: none;
+}
+
+.slidesjs-pagination {
+	display: none;
+}
+
+.text_header_contain {
+	top: 80px;
+	width: 90%;
+	margin-left: 5%;
+}
+.text_header {
+	width: 100%;
+}
+
+#container_discover {
+	top: 350px;
+}
+
+#top {
+	height: 88px;
+	background-image: none;
+	z-index: 9999;
+}
+
+#top_content {
+	width: 100%;
+	margin: auto;
+	height: 100%;
+	z-index: 9999;
+	position: relative;
+}
+
+#logo a {
+	display: block;
+	font-size: 60px;line-height: 60px;
+	margin-top: 10px;margin-left: 10%;
+}
+
+#logo_news {
+	display: none;
+}
+
+#top_facebook {
+	display: none;
+}
+#top_twitter {
+	display: none;
+}
+#top_mail {
+	display: none;
+}
+
+/*--------------- NAV --------------- */
+
+nav {
+	top: 530px;
+	z-index: -10;
+	padding: 0;
+}
+#menu {
+	width: 100%;
+}
+#menu tr td {
+	display: none;
+}
+#nav.floatable {
+	z-index: 0;
+}
+
+#menu_phone {
+	width: 100%;
+	z-index: 18;
+	display: block;
+}
+#menu_phone ul {
+	margin: 0;	padding: 0;
+}
+
+#menu_phone li#first_menu {
+	border-color: rgba(0,0,0,0.4);
+}
+#menu_phone li {
+	width: 100%;height: 55px;margin: 0;padding: 0;
+	text-align: center;
+	border-width: 1px 0 0 0;
+	border-color: rgba(0,0,0,0.2);
+	border-style: solid;
+	padding-top: 20px;
+	display: none;
+}
+#menu_phone li.show {
+	display: block;
+}
+
+#menu_phone a {
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 18px;
+	-webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; -ms-transition: all 300ms ease; -o-transition: all 300ms ease; transition: all 300ms ease;
+}
+#menu_phone a:hover {
+	font-weight: 600;
+	-webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; -ms-transition: all 300ms ease; -o-transition: all 300ms ease; transition: all 300ms ease;
+}
+#menu_phone a strong {
+	font-size: 32px;
+	line-height: 32px;
+	font-weight: 400;
+}
+
+#menu_phone img {
+	cursor: pointer;
+	position: absolute;top: 28px;right: 20px;
+}
+#menu_phone img.phone_back_onepage {
+	cursor: pointer;
+	position: absolute;top: 20px;left: 5%;
+	opacity: 0.2;
+	z-index: 21;
+}
+
+#current_menu_phone {
+	display: block;
+	position: absolute;top: 18px;right: 55px;
+	text-align: right;
+	font-size: 18px;line-height: 18px;font-weight: 400;
+}
+#current_menu_phone strong{
+	font-size: 32px;line-height: 32px;
+	font-weight: 400;
+}
+
+#current_menu_phone.news_menu_phone {
+	text-align: left;left: 105px;
+}
+
+/*--------------- OUR PRODUCTS --------------- */
+
+.left_showcase, .right_showcase {
+	width: 100%;
+	float: none;
+}
+
+.left_showcase p {
+	padding-right: 0;
+}
+.right_showcase p {
+	padding-left: 0;
+}
+
+/*--------------- OUR SERVICES --------------- */
+
+.services_table td {
+	float: left;
+	text-align: left;
+	padding-left: 0;
+}
+
+#services table tbody tr td h3 {
+	text-align: left;
+	margin-left: 84px;
+}
+
+.all_services {
+	float: left;
+	margin-bottom: 20px;
+}
+
+.services_table p {
+	margin-top: 0;
+	margin-left: 84px;
+}
+
+#service_table_2cols {
+	margin-top: 0;
+	padding-left: 0;padding-right: 0;
+}
+
+/*--------------- OUR BLOG --------------- */
+
+#blog_content {
+	width: 100%;
+	float: left;
+	padding-bottom: 0px;
+	padding-top: 120px;
+	margin-top: 0;
+}
+
+.media img, .media iframe {
+	margin-bottom: 20px;
+}
+
+.icon {
+	display: none;
+}
+
+.content_news {
+	width: 100%;
+	float: left;
+	padding: 20px 0 20px 0;
+}
+
+.news_by {
+	margin-right: 5px;
+}
+.news_by:after {
+	content: " -";
+}
+.meta_news img {
+	display: none;
+}
+
+.read_more {
+	display: none;
+}
+
+.more {
+	display: block !important;
+}
+
+.comments textarea {
+	width: 96%;
+}
+
+input.submit_comment  {
+	width: 73px;height: 40px;
+}
+
+#view_all_posts {
+	width: 100%;
+	margin: 0;
+}
+
+#sidebar {
+	width: 100%;
+	float: none;
+	margin-left: 0px;
+	padding-top: 30px;
+}
+
+#search_bar input {
+	width: 87%;height: 38px;
+	position: absolute;left: 5%;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+.ad_sidebar, #recent_posts, #archives, #twitter {
+	display: none;
+}
+
+/*--------------- FOOTER --------------- */
+
+
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------- */
+/*------------------------------------------------------- PHONE STYLE ----------------------------------------------------------- */
+/*------------------------------------------------------------------------------------------------------------------------------- */
+
+
+@media handheld and (max-width: 650px), screen and (max-width: 650px), screen and (max-device-width: 650px)  {
+
+/*--------------- MAIN --------------- */
+
+
+.cat {
+	width: 100%;height: 100%;
+	padding: 100px 0 20px 0;
+}
+
+h1 {
+	font-size: 60px;
+	line-height: 60px;
+	color: #475455;
+	padding: 0;margin: 0;
+	padding-bottom: 30px;
+	font-weight: 300;
+	text-align: left;
+}
+
+h2 {
+	font-size: 40px;line-height: 44px;
+}
+
+h3 {
+	font-size: 34px;line-height: 40px;
+	margin: 0;
+	color: #475455;
+	font-weight: 300;
+}
+
+.cat p, .meta_news {
+	font-size: 24px;line-height: 26px;
+	color: #8a9596;
+	font-weight: 400;
+}
+
+.title {
+	font-size: 24px;
+	line-height: 30px;
+}
+
+/*--------------- HEADER --------------- */
+
+#color_choice {
+	display: none;
+}
+
+.text_header p {
+	display: none;
+}
+
+/*--------------- MEET TEAM --------------- */
+
+#display_team {
+	width: 60%;
+}
+
+#display_team_2 {
+	width: 41px;height: 40px;
+	background-image: url('images/phones/2colonnes.png');
+}
+
+#display_team_3 {
+	height: 41px;width: 40px;
+	background-image: url('images/phones/quadrillage.png');
+}
+
+.button_team {
+	width: 145px;
+	color: #a0a8a9;
+	font-size: 22px;font-weight: 400;
+	border: solid 2px #a0a8a9;
+	border-radius: 3px;
+	padding: 19px;
+	margin: 10px;
+	cursor: pointer;
+	margin-left: 0;
+}
+
+/*--------------- OUR PRODUCTS --------------- */
+
+.button_products {
+	width: 145px;
+	font-size: 22px;
+	padding: 19px;
+	margin: 10px;
+}
+
+#description_showcase {
+	width: 90%;
+	margin: auto;
+	padding: 20px 5% 30px 5%;
+	font-size: 24px; line-height: 28px;
+	color: #a0a8a9;
+}
+
+#top_description_showcase {
+	width: 100%;height: 58px;
+	background-color: #404c4d;
+}
+
+#nav_left_showcase {
+	width: 41px;height: 40px;
+	background-image: url('images/phones/arrow_left.png');
+	margin-top: 5px;
+}
+
+#nav_right_showcase {
+	width: 41px;height: 40px;
+	background-image: url('images/phones/arrow_right.png');
+	margin-top: 5px;
+}
+
+.pagination_showcase {
+	margin-top: 5px;
+}
+
+p.title_showcase {
+	font-size: 34px;
+	color: #fff;
+	font-weight: 300;
+	margin-bottom: 10px;
+}
+
+.check_out_showcase a{
+	font-size: 24px;line-height: 33px;
+	padding: 15px 20px 15px 20px;
+}
+
+/*--------------- OUR SERVICES --------------- */
+
+.services_table p {
+	margin-top: 0;
+	font-size: 24px;
+	margin-left: 84px;
+}
+
+/*--------------- OUR WORK --------------- */
+
+#display_work {
+	width: 92px;height: 41px;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+#display_work_2 {
+	width: 41px;height: 41px;
+	background-image: url('images/phones/all.png');
+}
+
+#display_work_4 {
+	width: 41px;height: 40px;
+	background-image: url('images/phones/quadrillage.png');
+}
+
+/*--------------- OUR BLOG --------------- */
+
+.likes {
+	padding: 2px 8px 2px 33px;
+	background: #a0a8a9 url(images/phones/hearth.png) 8px center no-repeat;
+}
+
+.likes p {
+	color: #fff;
+	font-size: 20px;line-height: 36px;font-weight: 600;
+	display: inline;
+}
+
+.nb_comments {
+	padding: 2px 8px 2px 33px;
+	background: #a0a8a9 url(images/phones/comment.png) 8px center no-repeat;
+}
+
+.nb_comments.blue {
+	background: #42c0fb url(images/phones/comment-hover.png) 8px center no-repeat;
+}
+
+.nb_comments p {
+	color: #fff;
+	font-size: 20px;line-height: 36px;font-weight: 600;
+	display: inline;
+}
+
+.img_comment {
+	width: 17px;height: 19px;
+	background-image: url('images/phones/comment-hover.png');
+}
+
+.comment {
+	padding-left: 30px;
+}
+
+.comments h4 {
+	font-size: 22px;
+}
+
+.pseudo {
+	font-size: 28px;line-height: 30px;
+	margin-right: 10px;
+}
+
+.comments input {
+	width: 96%;height: 34px;
+	margin: 10px 0 10px 0;
+	font-size: 24px;line-height: 30px;
+}
+
+.last_input input {
+	margin: 10px 0px 20px 0;
+}
+
+.comments textarea {
+	font-size: 24px;line-height: 30px;
+}
+
+input.submit_comment  {
+	width: auto;height: auto;
+	text-align: center;
+	padding: 15px 30px 15px 30px;
+}
+
+#view_all_posts p {
+	font-size: 24px;line-height: 30px;
+}
+
+#search_bar input {
+	font-size: 24px;line-height: 30px;
+}
+
+/*--------------- FOOTER --------------- */
+
+.left_contact_content input {
+	font-size: 24px;line-height: 30px;
+}
+
+.left_contact_content textarea {
+	font-size: 24px;line-height: 30px;
+}
+
+
+}

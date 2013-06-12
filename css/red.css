@@ -1,0 +1,91 @@
+nav, #menu_phone li, #contact_team p, #contact, #submit_btn, #contact_social {
+	background-color: #fb5642;
+}
+
+.title {
+	color: #42c0fb;
+}
+
+.sub_title, .thumb span {
+	color: #fb5642;
+}
+
+.button_team.active_team, #effect_work .current_effect_work {
+	color: #fff;
+	background-color: #42c0fb;
+	border-color: #42c0fb;
+}
+
+.da-slider {
+	background-color: #42c0fb;
+}
+
+.button_products.active_product {
+	color: #fff;
+	background-color: #42c0fb;
+	border-color: #42c0fb;
+}
+
+#container_description_showcase, .og-expander, .superbox-show {
+	background-color: #475455;
+}
+h1, h2, h3 {
+	color: #475455;
+}
+
+#top_description_showcase {
+	background-color: #404c4d;
+}
+
+.check_out_showcase a, .check_out_work a, .og-details a {
+	background-color: #30393a;
+}
+
+.services_doc {
+	background-image: url('../images/red/doc.png');
+}
+.services_ps {
+	background-image: url('../images/red/ps.png');
+}
+.services_video {
+	background-image: url('../images/red/video.png');
+}
+.services_picture {
+	background-image: url('../images/red/picture.png');
+}
+.services_music {
+	background-image: url('../images/red/music.png');
+}
+
+.icon.blog_doc2 {
+	background-image: url('../images/red/doc2.png');
+}
+.icon.blog_pictures2 {
+	background-image: url('../images/red/pictures2.png');
+}
+.icon.blog_movie2 {
+	background-image: url('../images/red/movie2.png');
+}
+.icon.blog_audio {
+	background-image: url('../images/red/audio.png');
+}
+
+#view_all_posts {
+	background-color: #42c0fb;
+}
+
+@media handheld and (max-width: 769px), screen and (max-width: 769px), screen and (max-device-width: 769px)  {
+
+#top {
+	background-color: #fb5642;
+}
+
+}
+
+@media handheld and (max-width: 650px), screen and (max-width: 650px), screen and (max-device-width: 650px)  {
+
+.likes.red {
+	background:  #fb5642 url(../images/phones/hearth-hover.png) 8px center no-repeat;
+}
+
+}
