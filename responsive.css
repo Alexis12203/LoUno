@@ -219,8 +219,10 @@ nav tr td {
 
 #logo a {
 	display: block;
-	font-size: 60px;line-height: 60px;
+	font-size: 46px;line-height: 60px;
 	margin-top: 10px;margin-left: 10%;
+	width: 182px;
+	border-right: 2px solid #fff;
 }
 
 #logo_news {
@@ -314,7 +316,8 @@ nav {
 	font-size: 18px;line-height: 18px;font-weight: 400;
 }
 #current_menu_phone strong{
-	font-size: 32px;line-height: 32px;
+	color: #fff;
+	font-size: 20px;line-height: 32px;
 	font-weight: 400;
 }
 
@@ -331,9 +334,11 @@ nav {
 
 .left_showcase p {
 	padding-right: 0;
+	font-size: 17px;
 }
 .right_showcase p {
 	padding-left: 0;
+	font-size: 17px;
 }
 
 /*--------------- OUR SERVICES --------------- */
@@ -347,6 +352,7 @@ nav {
 #services table tbody tr td h3 {
 	text-align: left;
 	margin-left: 84px;
+	font-size: 22px;
 }
 
 .all_services {
@@ -458,7 +464,7 @@ input.submit_comment  {
 }
 
 h1 {
-	font-size: 60px;
+	font-size: 19px;
 	line-height: 60px;
 	color: #475455;
 	padding: 0;margin: 0;
@@ -468,7 +474,7 @@ h1 {
 }
 
 h2 {
-	font-size: 40px;line-height: 44px;
+	font-size: 22px;line-height: 44px;
 }
 
 h3 {
@@ -479,7 +485,7 @@ h3 {
 }
 
 .cat p, .meta_news {
-	font-size: 24px;line-height: 26px;
+	font-size: 17px;line-height: 26px;
 	color: #8a9596;
 	font-weight: 400;
 }
@@ -566,7 +572,7 @@ h3 {
 }
 
 p.title_showcase {
-	font-size: 34px;
+	font-size: 22px;
 	color: #fff;
 	font-weight: 300;
 	margin-bottom: 10px;
@@ -581,7 +587,7 @@ p.title_showcase {
 
 .services_table p {
 	margin-top: 0;
-	font-size: 24px;
+	font-size: 17px;
 	margin-left: 84px;
 }
 
