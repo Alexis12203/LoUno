@@ -163,20 +163,20 @@ $(window).load(function () {
 	// listen for scroll
 	
 	// listen for scroll
-	var positionWorkInPage = $('#work').offset().top;
-	$(window).scroll(
-	    function() {
-	        if (($(window).scrollTop() + 2) >= positionWorkInPage) {
-	            // actif
-	            $('#menu_products').removeClass("active");
-	           $('#menu_work').addClass("active");
-	           $("#current_menu_phone").html("nuestros<br><strong>CLIENTES</strong>");
-	        } else {
-	            // non actif
-	            $('#menu_work').removeClass("active");
-	        }
-	    }
-	);
+	// var positionWorkInPage = $('#work').offset().top;
+	// $(window).scroll(
+	//     function() {
+	//         if (($(window).scrollTop() + 2) >= positionWorkInPage) {
+	//             // actif
+	//             $('#menu_products').removeClass("active");
+	//            $('#menu_work').addClass("active");
+	//            $("#current_menu_phone").html("nuestros<br><strong>CLIENTES</strong>");
+	//         } else {
+	//             // non actif
+	//             $('#menu_work').removeClass("active");
+	//         }
+	//     }
+	// );
 	// listen for scroll
 	// var positionNewsInPage = $('#news').offset().top;
 	// $(window).scroll(
@@ -198,7 +198,7 @@ $(window).load(function () {
 	    function() {
 	        if (($(window).scrollTop() + 10) >= positionContactInPage) {
 	            // actif
-	            $('#menu_work').removeClass("active");
+	           $('#menu_products').removeClass("active");
 	           $('#menu_team').addClass("active");
 	           $("#current_menu_phone").html("mail<br><strong>CONTACTO</strong>");
 	        } else {
