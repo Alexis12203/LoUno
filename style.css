@@ -446,7 +446,8 @@ h3 {
 #logo {
 	float: left;
 }
-#logo p, #logo a {
+
+a#logo {
 	color: #FFF;
 	font-size: 30px;
 	line-height: 40px;
@@ -456,6 +457,13 @@ h3 {
 	width: 94px;
 	height: 31px;
 	display: block;
+}
+
+#menu table tr td a#logo{
+	margin-top: 0px;
+	border-right: 2px solid #fff;
+	padding-right: 22px;
+	height: 34px;
 }
 
 #top_facebook {
@@ -561,7 +569,7 @@ nav tr td {
 }
 
 tr td a, #menu_phone a, #current_menu_phone {
-	color: rgba(0,0,0,0.3);
+	color: rgba(255, 255, 255, 0.53);
 }
 
 tr td a {
@@ -579,7 +587,6 @@ tr td a.active {
 }
 
 nav table strong {
-	color: #fff;
 	font-size: 19px;
 	font-weight: 400;
 }
