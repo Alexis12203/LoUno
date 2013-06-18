@@ -451,7 +451,11 @@ h3 {
 	font-size: 30px;
 	line-height: 40px;
 	text-decoration: none;
-	margin-top: 0;
+	margin-top: 5px;
+	background: url(images/logo.png) no-repeat;
+	width: 94px;
+	height: 31px;
+	display: block;
 }
 
 #top_facebook {
