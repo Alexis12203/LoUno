@@ -263,7 +263,7 @@
       this.options.width = width;
       this.options.height = height;
       return $(".slidesjs-control, .slidesjs-container", $element).css({
-        width: width,
+        width: '100%',
         height: height
       });
     };
