@@ -193,7 +193,7 @@ $(window).load(function () {
 	//     }
 	// );
 	// listen for scroll
-	var positionContactInPage = $('#da-slider').offset().top;
+	var positionContactInPage = $('#contact').offset().top;
 	$(window).scroll(
 	    function() {
 	        if (($(window).scrollTop() + 10) >= positionContactInPage) {
