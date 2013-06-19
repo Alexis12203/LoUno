@@ -167,28 +167,9 @@ nav tr td {
 
 #header {
 	height: 530px !important;
-}
-
-#slides {
-	height: 530px;
-}
-.slidesjs-container {
-	min-height: 530px;
-}
-.slidesjs-control {
-	height: 530px;
-}
-
-.slidesjs-previous {
-	display: none;
-}
-.slidesjs-next {
 	display: none;
 }
 
-.slidesjs-pagination {
-	display: none;
-}
 
 .text_header_contain {
 	top: 80px;
