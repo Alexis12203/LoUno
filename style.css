@@ -447,11 +447,8 @@ h3 {
 	float: left;
 }
 
-a#logo {
-	color: #FFF;
-	font-size: 30px;
-	line-height: 40px;
-	text-decoration: none;
+.floatable #menu table tr td a#logo , a#logo-head {
+
 	margin-top: 5px;
 	background: url(images/logo.png) no-repeat;
 	width: 94px;
@@ -459,7 +456,7 @@ a#logo {
 	display: block;
 }
 
-#menu table tr td a#logo{
+.floatable #menu table tr td a#logo{
 	margin-top: 0px;
 	border-right: 2px solid #fff;
 	padding-right: 22px;
