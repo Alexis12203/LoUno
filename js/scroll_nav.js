@@ -104,7 +104,7 @@ $(window).load(function () {
 	var positionStoryInPage = $('#story').offset().top;
 	$(window).scroll(
 	    function() {
-	        if (($(window).scrollTop() + 2) >= positionStoryInPage) {
+	        if (($(window).scrollTop() + 10) >= positionStoryInPage) {
 	            // actif
 	           $('#menu_story').addClass("active");
 	           $("#current_menu_phone").html("<br><strong>AGENCIA</strong>");
@@ -149,7 +149,7 @@ $(window).load(function () {
 	var positionProductsInPage = $('#products').offset().top;
 	$(window).scroll(
 	    function() {
-	        if (($(window).scrollTop() + 2) >= positionProductsInPage) {
+	        if (($(window).scrollTop() + 10) >= positionProductsInPage) {
 	            // actif
 	           $('#menu_services').removeClass("active");
 	           $('#menu_products').addClass("active");
