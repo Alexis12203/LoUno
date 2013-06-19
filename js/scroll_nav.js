@@ -95,7 +95,7 @@ $(window).load(function () {
 	    function() {
 	        if ($(window).scrollTop() >= positionHeaderInPage) {
 	            // actif
-	           $("#current_menu_phone").html("el<br><strong>INICIO</strong>");
+	           $("#current_menu_phone").html("<br><strong>AGENCIA</strong>");
 	        }
 	    }
 	);
@@ -153,7 +153,7 @@ $(window).load(function () {
 	            // actif
 	           $('#menu_services').removeClass("active");
 	           $('#menu_products').addClass("active");
-	           $("#current_menu_phone").html("nuestros<br><strong>PRODUCTOS</strong>");
+	           $("#current_menu_phone").html("nuestros<br><strong>PORTAFOLIO</strong>");
 	        } else {
 	            // non actif
 	            $('#menu_products').removeClass("active");
