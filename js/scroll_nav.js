@@ -88,6 +88,14 @@ $(window).load(function () {
             }, 1500,'easeInOutExpo');
             event.preventDefault();
         });
+        $('#description_showcase a').bind('click',function(event){
+            var $anchor = $(this);
+            
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top
+            }, 1500,'easeInOutExpo');
+            event.preventDefault();
+        });
     });
 
 	var positionHeaderInPage = $('#header').offset().top;
@@ -107,7 +115,7 @@ $(window).load(function () {
 	        if (($(window).scrollTop() + 10) >= positionStoryInPage) {
 	            // actif
 	           $('#menu_story').addClass("active");
-	           $("#current_menu_phone").html("<br><strong>AGENCIA</strong>");
+	           $("#current_menu_phone").html("<br><strong>nosotros</strong>");
 	        } else {
 	            // non actif
 	            $('#menu_story').removeClass("active");
@@ -138,7 +146,7 @@ $(window).load(function () {
 	            // actif
 	           $('#menu_story').removeClass("active");
 	           $('#menu_services').addClass("active");
-	           $("#current_menu_phone").html("nuestros<br><strong>SERVICIOS</strong>");
+	           $("#current_menu_phone").html("<br><strong>servicios</strong>");
 	        } else {
 	            // non actif
 	            $('#menu_services').removeClass("active");
@@ -153,7 +161,7 @@ $(window).load(function () {
 	            // actif
 	           $('#menu_services').removeClass("active");
 	           $('#menu_products').addClass("active");
-	           $("#current_menu_phone").html("nuestros<br><strong>PORTAFOLIO</strong>");
+	           $("#current_menu_phone").html("<br><strong>portafolio</strong>");
 	        } else {
 	            // non actif
 	            $('#menu_products').removeClass("active");
@@ -200,7 +208,7 @@ $(window).load(function () {
 	            // actif
 	           $('#menu_products').removeClass("active");
 	           $('#menu_team').addClass("active");
-	           $("#current_menu_phone").html("mail<br><strong>CONTACTO</strong>");
+	           $("#current_menu_phone").html("<br><strong>contacto</strong>");
 	        } else {
 	        	$('#menu_team').removeClass("active");
 	        }
