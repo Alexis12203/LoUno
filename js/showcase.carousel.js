@@ -39,7 +39,9 @@
         currentCenterItem:      null,
         previousCenterItem:     null,
         items:                  [],
-        currentPagination:      $(pagination),
+        /*Slider movil*/
+        //currentPagination:      $(pagination),
+        currentPagination:      null,
         calculations:           [],
         carouselRotationsLeft:  0,
         currentlyMoving:        false,

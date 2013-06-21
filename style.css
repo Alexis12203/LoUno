@@ -761,6 +761,9 @@ nav table strong.active {
 }
 #showcase img {
 	width: 210px;height: 370px;
+	/*Slider movil*/
+	margin: 0 auto;
+	display: block;
 }
 #showcase.iphone5 {
 	height: 370px;
@@ -768,6 +771,9 @@ nav table strong.active {
 }
 #showcase.iphone5 img {
 	height: 370px;width: 210px;
+	/*Slider movil*/
+	margin: 0 auto;
+	display: block;
 }
 #showcase.ipad {
 	height: 400px;
@@ -775,6 +781,9 @@ nav table strong.active {
 }
 #showcase.ipad img {
 	height: 100%;width: 292px;
+	/*Slider movil*/
+	margin: 0 auto;
+	display: block;
 }
 #showcase.imac {
 	height: 348px;
@@ -783,6 +792,9 @@ nav table strong.active {
 }
 #showcase.imac img {
 	height: 100%;width: 535px;
+	/*Slider movil*/
+	margin: 0 auto;
+	display: block;
 }
 #showcase.null {
 	height: 400px;
@@ -865,8 +877,10 @@ nav table strong.active {
 #nav_showcase {
 	width: 250px;height: 42px;
 	margin: auto;
+	/*Slider movil*/
 	display: none;
 }
+
 #nav_showcase td {
 	text-align: center;
 }
