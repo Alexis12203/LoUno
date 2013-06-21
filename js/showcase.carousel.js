@@ -41,7 +41,7 @@
         items:                  [],
         /*Slider movil*/
         //currentPagination:      $(pagination),
-        currentPagination:      null,
+        currentPagination:      $(pagination),
         calculations:           [],
         carouselRotationsLeft:  0,
         currentlyMoving:        false,
