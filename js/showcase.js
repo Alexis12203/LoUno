@@ -16,7 +16,7 @@ $(document).ready(function(){
 		$('#shadow_left').css('top',-450);
 		$('#shadow_right').css('top',-450);
 		/* YOUR SCREENSHOTS */
-		$('#showcase').html('<img id="product_1" src="images/products/kerian/null.png" alt="Image 1"><img id="product_2" src="images/products/kerian/null.png" alt="Image 2"><img id="product_3" src="images/products/kerian/null.png" alt="Image 3"><img id="product_4" src="images/products/kerian/null.png" alt="Image 4"><img id="product_5" src="images/products/kerian/null.png" alt="Image 5">');
+		$('#showcase').html('<img id="product_1" src="images/products/kerian/mamoru-movil.jpg" alt="Image 1">');
 		/* THE PAGINATION */
 		$('#pagination').html('<tr><td><div id="nav_left_showcase"></div></td><td><div class="pagination_showcase" id="dot_product_1"></div></td><td><div class="pagination_showcase" id="dot_product_2"></div></td><td><div class="pagination_showcase" id="dot_product_3"></div></td><td><div class="pagination_showcase" id="dot_product_4"></div></td><td><div class="pagination_showcase" id="dot_product_5"></div></td><td><div id="nav_right_showcase"></div></td></tr>');
 		/* LEFT DESCRIPTION */
@@ -33,7 +33,7 @@ $(document).ready(function(){
 		$('#showcase').addClass(product);
 		$('#shadow_left').css('top',-473);
 		$('#shadow_right').css('top',-473);
-		$('#showcase').html('<img id="product_1" src="images/products/oct/null.jpg" alt="Image 1"><img id="product_2" src="images/products/oct/null.jpg" alt="Image 2"><img id="product_3" src="images/products/oct/null.jpg" alt="Image 3"><img id="product_4" src="images/products/oct/null.jpg" alt="Image 4"><img id="product_5" src="images/products/oct/null.jpg" alt="Image 5">');
+		$('#showcase').html('<img id="product_1" src="images/products/oct/mamoru.jpg" alt="Image 1">');
 		$('#pagination').html('<tr><td><div id="nav_left_showcase"></div></td><td><div class="pagination_showcase" id="dot_product_1"></div></td><td><div class="pagination_showcase" id="dot_product_2"></div></td><td><div class="pagination_showcase" id="dot_product_3"></div></td><td><div class="pagination_showcase" id="dot_product_4"></div></td><td><div class="pagination_showcase" id="dot_product_5"></div></td><td><div id="nav_right_showcase"></div></td></tr>');
 		$('.left_showcase').html('<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc.</p>');
 		$('.right_showcase').html('<p>This is Photoshop\'s version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. <br>Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>');
@@ -47,7 +47,7 @@ $(document).ready(function(){
 		$('#showcase').addClass(product);
 		$('#shadow_left').css('top',-450);
 		$('#shadow_right').css('top',-450);
-		$('#showcase').html('<img id="product_1" src="images/products/cpconseil/null.jpg" alt="Image 1"><img id="product_2" src="images/products/cpconseil/null.jpg" alt="Image 2"><img id="product_3" src="images/products/cpconseil/null.jpg" alt="Image 3">');
+		$('#showcase').html('<img id="product_1" src="images/products/cpconseil/mamoru.jpg" alt="Image 1">');
 		$('#pagination').html('<tr><td><div id="nav_left_showcase"></div></td><td><div class="pagination_showcase" id="dot_product_1"></div></td><td><div class="pagination_showcase" id="dot_product_2"></div></td><td><div class="pagination_showcase" id="dot_product_3"></div></td><td><div id="nav_right_showcase"></div></td></tr>');
 		$('.left_showcase').html('<p>This is Photoshop\'s version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. <br>Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>');
 		$('.right_showcase').html('<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc.</p>');
@@ -61,7 +61,7 @@ $(document).ready(function(){
 		$('#showcase').addClass(product);
 		$('#shadow_left').css('top',-477);
 		$('#shadow_right').css('top',-477);
-		$('#showcase').html('<img id="product_1" src="images/products/transaction/null.jpg" alt="Image 1"><img id="product_2" src="images/products/transaction/null.jpg" alt="Image 2"><img id="product_3" src="images/products/transaction/null.jpg" alt="Image 3">');
+		$('#showcase').html('<img id="product_1" src="images/products/transaction/mamoru.jpg" alt="Image 1">');
 		$('#pagination').html('<tr><td><div id="nav_left_showcase"></div></td><td><div class="pagination_showcase" id="dot_product_1"></div></td><td><div class="pagination_showcase" id="dot_product_2"></div></td><td><div class="pagination_showcase" id="dot_product_3"></div></td><td><div id="nav_right_showcase"></div></td></tr>');
 		$('.left_showcase').html('<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc.</p>');
 		$('.right_showcase').html('<p>This is Photoshop\'s version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. <br>Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>');

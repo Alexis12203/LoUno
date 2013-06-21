@@ -865,6 +865,7 @@ nav table strong.active {
 #nav_showcase {
 	width: 250px;height: 42px;
 	margin: auto;
+	display: none;
 }
 #nav_showcase td {
 	text-align: center;
