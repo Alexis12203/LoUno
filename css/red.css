@@ -20,6 +20,12 @@ nav, #menu_phone li, #contact_team p, #contact, #submit_btn, #contact_social {
 	background-color: #42c0fb;
 }
 
+.button_disp.selected{
+	color: #fff;
+	background-color: #42c0fb;
+	border-color: #42c0fb;
+}
+
 .button_products.active_product {
 	color: #fff;
 	background-color: #42c0fb;

@@ -242,9 +242,9 @@ lang="en">
 
 			<div class="flexslider">
 			  <ul class="slides">
-			    <li id="flexslide1" class="flexslides"><h1 class="animated-slide fadeInUpBig">VIEW THE WORLD.</h1></li>
-			    <li id="flexslide2" class="flexslides"><h1 class="animated-slide fadeInUpBig">TRAVEL THE WORLD.</h1></li>
-			    <li id="flexslide3" class="flexslides"><h1 class="animated-slide fadeInUpBig">IN THE CITY.</h1></li>
+			    <li id="flexslide1" class="flexslides"><h1 class="animated-slide fadeInUpBig">Diseño estratégico</h1></li>
+			    <li id="flexslide2" class="flexslides"><h1 class="animated-slide fadeInUpBig">Desarrollo de sitios Web</h1></li>
+			    <li id="flexslide3" class="flexslides"><h1 class="animated-slide fadeInUpBig">Generación de contenidos</h1></li>
 			    <!-- ADD A SLIDE HERE -->
 			  </ul>
 			</div>
@@ -258,27 +258,29 @@ lang="en">
 				<div class="title">portafolio</div> <!-- INTRODUCTION -->
 				<h1>CONOCE <br>NUESTROS TRABAJOS</h1>
 
-				<table id="buttons_products"> <!-- TABS -->
-					<tr>
-						<td><div id="button_products_kerian" class="button_products active_product">MÓVIL</div></td>
-						<td><div id="button_products_oct" class="button_products">TABLETS</div></td>
-						<td><div id="button_products_cpconseil" class="button_products">NOTEBOOK</div></td>
-						<td><div id="button_products_transaction" class="button_products">ESCRITORIO</div></td>
-						<!-- ADD A TAB HERE -->
-					</tr>
-				</table> <!-- END TABS -->
+				<ul class="idTabs"> 
+				  <li><a class="button_disp" href="#movil">MÓVIL</a></li> 
+				  <li><a class="button_disp" href="#tablet">TABLETS</a></li> 
+				  <li><a class="button_disp" href="#notebook">NOTEBOOK</a></li> 
+				  <li><a class="button_disp" href="#escritorio">ESCRITORIO</a></li> 
+				</ul> 
+					
+					
+
+	
 
 				<div id="showcase"> <!-- ACTIVE TAB CONTAINER -->
-				    <img id="product_1" src="images/products/kerian/mamoru-movil.jpg" alt="Image 1">
+
+					<div id="movil"><img id="product_1" src="images/products/iphone.png" alt="Image 1"></div> 
+					<div id="tablet"><img id="product_1" src="images/products/ipad.png" alt="Image 1"></div>
+					<div id="notebook"><img id="product_1" src="images/products/macbook.png" alt="Image 1"></div>
+					<div id="escritorio"><img id="product_1" src="images/products/imac.png" alt="Image 1"></div>
+
 				    <!-- ADD SCREENSHOTS HERE -->
 				</div>  <!-- END ACTIVE TAB CONTAINER -->
 
-				<div id="product" class="iphone5">
-					<img src="images/iphone5.png" alt="product"> <!-- CHOOSE YOUR PRESENTATION PRODUCT -->
-				</div>
 
-				<div id="shadow_left"></div>
-				<div id="shadow_right"></div>
+
 
 			</section> <!-- END OUR PRODUCTS -->
 
@@ -307,19 +309,18 @@ lang="en">
 
 			<div id="description_showcase"> <!-- TEXT DESCRIPTION -->
 
-				<p class="title_showcase">PORTFOLIO SCREEN</p>
+				<p class="title_showcase">Diseños web</p>
 				<div class="left_showcase"> <!-- LEFT DESCRIPTION -->
 					<p>
-						This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. <br>
-						Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. 
+						Implemente un diseño web impresionante , de categoría superior que proyectará un perfil diferenciadora para su empresa. La tecnología html5 permite una gran flexibilidad de recursos para llamar la atención de sus clientes. Incremente su imagen corporativa en internet.
 					</p>
 				</div>
 				<div class="right_showcase"> <!-- RIGHT DESCRIPTION -->
 					<p>
-						Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc.
+						Nosotros participamos activamente en el desarrollo de su proyecto, desde la definición de objetivos, elaboración , conceptualización , diseño hasta la programación de aplicaciones.
 					</p>
 				</div>
-				<div class="check_out_showcase"><a href="#products">CHECK OUT</a></div> <!-- LINK TO THE PROJECT -->
+				<div class="check_out_showcase"><a href="#story">NOSOTROS</a></div> <!-- LINK TO THE PROJECT -->
 				<div class="cb"></div>
 
 			</div> <!-- END TEXT DESCRIPTION -->
@@ -528,6 +529,7 @@ lang="en">
 		 <!-- JAVASCRIPT -->
 		<script type="text/javascript" src="js/modernizr-slide.js"></script>
 		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery.idTabs.min.js"></script>
 		<script type="text/javascript" src="js/init.js"></script>
 		<script type="text/javascript" src="js/social.js"></script>
 		<script type="text/javascript" src="js/scroll_nav.js"></script>
@@ -583,9 +585,9 @@ lang="en">
 		/* ]]> */
 		</script>
 		<script type="text/javascript">
-		/* <![CDATA[ */
+		/* /* <![CDATA[ 
 			$(document).ready(function(){
-				/* SHOWCASE */
+				/* SHOWCASE 
 				var showcase = $('#showcase');
 				showcase.showcase({separation: 250}),
 				$('#button_products_kerian').click(function(){
@@ -601,7 +603,7 @@ lang="en">
 					//showcase.showcase({separation: 570})
 				});
 			});
-		/* ]]> */
+		]]> */
 		</script>
 		<script type="text/javascript" src="js/jquery.cslider.js"></script>
 		<script type="text/javascript">

@@ -16,7 +16,7 @@ $(document).ready(function(){
 		$('#shadow_left').css('top',-450);
 		$('#shadow_right').css('top',-450);
 		/* YOUR SCREENSHOTS */
-		$('#showcase').html('<img id="product_1" src="images/products/kerian/mamoru-movil.jpg" alt="Image 1">');
+		$('#showcase').html('<img id="product_1" src="images/products/iphone.png" alt="Image 1">');
 		/* THE PAGINATION */
 		//$('#pagination').html('<tr><td><div id="nav_left_showcase"></div></td><td><div class="pagination_showcase" id="dot_product_1"></div></td><td><div class="pagination_showcase" id="dot_product_2"></div></td><td><div class="pagination_showcase" id="dot_product_3"></div></td><td><div class="pagination_showcase" id="dot_product_4"></div></td><td><div class="pagination_showcase" id="dot_product_5"></div></td><td><div id="nav_right_showcase"></div></td></tr>');
 		/* LEFT DESCRIPTION */

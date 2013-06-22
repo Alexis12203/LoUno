@@ -425,6 +425,25 @@ input.submit_comment  {
 	display: none;
 }
 
+#showcase{
+	height: 620px;
+}
+
+#showcase img{
+	width: 94%;
+}
+
+#showcase #notebook img{
+	margin-top: 52px;
+}
+
+#showcase #tablet img {
+	width: 400px;
+}
+
+#showcase #movil img{
+	width: 240px;
+}
 /*--------------- FOOTER --------------- */
 
 
@@ -673,6 +692,20 @@ input.submit_comment  {
 
 .left_contact_content textarea {
 	font-size: 24px;line-height: 30px;
+}
+
+
+#showcase #tablet img {
+	width: 325px;
+}
+
+#showcase #movil img{
+	width: 182px;
+}
+
+
+#showcase{
+	height: 470px;
 }
 
 

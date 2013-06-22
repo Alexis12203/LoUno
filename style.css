@@ -731,6 +731,20 @@ nav table strong.active {
 	width: 960px;margin: auto;
 }
 
+
+.button_disp{
+	width: 110px;
+	color: #a0a8a9;
+	font-size: 14px;font-weight: 400;
+	border: solid 2px #a0a8a9;
+	border-radius: 3px;
+	padding: 15px;
+	margin: auto;
+	cursor: pointer;
+	margin: 10px;
+	float: left;
+}
+
 #buttons_products {
 	width: 100%;
 	text-align: center;
@@ -755,13 +769,13 @@ nav table strong.active {
 
 #showcase {
     width:100%;
-    height: 376px;
+    height: 610px;
     overflow: hidden;
     margin-top: 100px;
 }
 #showcase img {
-	width: 210px;height: 370px;
 	/*Slider movil*/
+	/* width: 210px;height: 370px; */
 	margin: 0 auto;
 	display: block;
 }
